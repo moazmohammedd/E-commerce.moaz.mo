@@ -14,8 +14,14 @@
             opacity: 0.5;
             @media (max-width:991px) {
                 &{
-                    flex-direction: column-reverse;
+                    flex-direction: column;
                     text-align: center;
+                    .slide-text{
+                        order:1;
+                    }
+                    img{
+                        order: 2;
+                    }
                 }
             }
         }

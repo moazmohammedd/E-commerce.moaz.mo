@@ -10,11 +10,11 @@ import pic from "../../assets/images/pic.png";
 const HomeCategory = () => {
     const data =[
         {id:1 , src:clothe , bg:'#F4DBA450' ,title:'اجهوة منزلية'},
-        {id:2 , src:cat2 , bg:'#F4DBA450' ,title:'اجهوة منزلية'},
+        {id:2 , src:cat2 , bg:'#e9d1c3b8' ,title:'اجهوة منزلية'},
         {id:3 , src:labtop , bg:'#0034FF50' ,title:'اجهوة منزلية'},
         {id:4 , src:clothe , bg:'#F4DBA480' ,title:'اجهوة منزلية'},
-        {id:4 , src:sale , bg:'#FF626260' ,title:'اجهوة منزلية'},
-        {id:5 , src:pic , bg:'#F4DBA440' ,title:'اجهوة منزلية'}
+        {id:5 , src:sale , bg:'#FF626260' ,title:'اجهوة منزلية'},
+        {id:6 , src:pic , bg:'#F4DBA440' ,title:'اجهوة منزلية'}
     ]
 return (
     <div className="category">
